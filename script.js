@@ -3,6 +3,33 @@ let container = document.querySelector(".all-projects");
 let data = [
   {
     id: 1,
+    image: "/assets/code-studio.png",
+    link: "https://talhashaikh150.github.io/Code-Editor/",
+    name: "Code Studio Editor",
+    description:
+      "A web-based editor with HTML, CSS, and JS fullscreen and built-in boilerplate setup.",
+    github: "https://github.com/TalhaShaikh150/Code-Editor",
+  },
+  {
+    id: 2,
+    image: "/assets/weather.png",
+    link: "https://talhashaikh150.github.io/Weather-app/",
+    name: "Weather App",
+    description:
+      "Weather app with 12-hour forecast and dynamic UI themes based on weather status.",
+    github: "https://github.com/TalhaShaikh150/Weather-app",
+  },
+  {
+    id: 3,
+    image: "/assets/instagram.png",
+    link: "https://talhashaikh150.github.io/Instagram-Clone/",
+    name: "Instagram Clone",
+    description:
+      "Built with HTML, CSS, JS, and Supabase. Users can upload images, post updates, and view a shared feed.",
+    github: "https://github.com/TalhaShaikh150/Instagram-Clone",
+  },
+  {
+    id: 4,
     image: "/assets/scramble.png",
     link: "https://talhashaikh150.github.io/scramble-js/",
     name: "Word Scramble Game",
@@ -10,7 +37,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/scramble-js",
   },
   {
-    id: 2,
+    id: 5,
     image: "/assets/todo.png",
     link: "https://talhashaikh150.github.io/Todo/",
     name: "Todo List",
@@ -18,7 +45,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/Todo",
   },
   {
-    id: 3,
+    id: 6,
     image: "/assets/notes.png",
     link: "https://talhashaikh150.github.io/Notes-App/",
     name: "Notes App",
@@ -26,7 +53,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/Notes-App",
   },
   {
-    id: 4,
+    id: 7,
     image: "/assets/palindrome.png",
     link: "https://talhashaikh150.github.io/palindrome-checker/",
     name: "Palindrom Checker",
@@ -35,7 +62,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/palindrome-checker",
   },
   {
-    id: 5,
+    id: 8,
     image: "/assets/pixelart.png",
     link: "https://talhashaikh150.github.io/Js-pixel-art/",
     name: "Pixel Art Editor",
@@ -44,7 +71,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/Js-pixel-art",
   },
   {
-    id: 6,
+    id: 9,
     image: "/assets/dicegame.png",
     link: "https://talhashaikh150.github.io/Dice-game/",
     name: "Dice Game",
@@ -52,7 +79,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/Dice-game",
   },
   {
-    id: 7,
+    id: 10,
     image: "/assets/recipe.png",
     link: "https://talhashaikh150.github.io/recipe-website/",
     name: "Recipe's Website",
@@ -61,7 +88,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/recipe-website",
   },
   {
-    id: 8,
+    id: 11,
     image: "/assets/csstools.png",
     link: "https://talhashaikh150.github.io/Css-Tools/",
     name: "Css Tools",
@@ -70,7 +97,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/Css-Tools",
   },
   {
-    id: 9,
+    id: 12,
     image: "/assets/timer.png",
     link: "https://talhashaikh150.github.io/js-timer/",
     name: "Stop Watch",
@@ -78,7 +105,7 @@ let data = [
     github: "https://github.com/TalhaShaikh150/js-timer",
   },
   {
-    id: 10,
+    id: 13,
     image: "/assets/E-commerce.png",
     link: "https://talhashaikh150.github.io/E-Commerce/",
     name: "E-Commerce Website",
